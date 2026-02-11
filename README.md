@@ -1,9 +1,19 @@
-# Getting Started with Fusion Recruitment App
+# Getting Started with Recruitment App
+
+can be used for any recruitment sites. clean and simple.
 
 # TECH STACK
 - django + reactjs
 
 # Main workflow
-- section1->section2->3->preview->success.
-- to download applications file visit -> http://127.0.0.1:8000/api/download/ on localhost. deployment time gotta change this ig. this file also authenticiated for fusion admins.
-- also change the icon, its still the react icon.
+- section1->section2->3->preview->success->redirect to main site
+- django takes these user inputs --> writes them in csv file
+- authorized recruiters can download this csv file at -> api/download
+
+# Sections
+- section 1 : personal details
+- section 2 : teams & social links
+- section 3 : final questions
+- preview : review your application
+
+

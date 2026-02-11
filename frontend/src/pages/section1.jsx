@@ -63,6 +63,7 @@ const errors = {
 
   return (
     <div className="page-wrapper">
+    <h1>Recruitment Form</h1>
       <div className="container">
         <ProgressBar step={1} />
 
